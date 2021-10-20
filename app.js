@@ -1,13 +1,17 @@
-// $(document).ready(function(){
-//   $('body').html('<h1>Hello jQuery!!</h1>');
-// });
-
 $(function(){
-  $('.box1').slideDown(function(){
-    $('.box1').css({
-      'background-color':'#0000FF',
-      'width':'200px',
-      'height':'100px'
-    }).slideUp();
+  $('.bg1').on('click', function(){
+    $('.bg1').slideUp();
+  });
+
+  $('.bg2').on('click',function(){
+    $('.bg2').slideUp();
+  });
+
+  $('.bg3').on('click',function(){
+    $('.bg3').slideUp();
+  });
+
+  $('.bg4').on('click',function(){
+    $('.bg4').slideUp();
   });
 });
